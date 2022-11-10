@@ -26,3 +26,18 @@ a{
    line-height: 26px;
    @extend %quicksand-500;
 }
+
+.title{
+   text-align: center;
+   font-size: 48px;
+   @extend %roboto-700;
+   line-height: 65px;
+   color: $title;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+.text{
+   max-width: 570px;
+   text-align: center;
+   margin: 9px auto 55px;
+}
