@@ -188,13 +188,6 @@ padding-bottom: 45px;
 &__container{
    max-width: 1560px;
 }
-   &__inner {
-      
-   }
-
-   &__item {
-      
-   }
    &__content-my{
       display: flex;
       justify-content: space-between;
@@ -222,9 +215,6 @@ padding-bottom: 45px;
    &__link {
       @extend %btn;
       padding: 14px 35px;
-   }
-
-   &__img {
    }
    .slick-dots{
       display: flex;
@@ -404,9 +394,56 @@ height: 52px;
          transition: all .3s;
 		}
 }
-.title {
-}
-.text {
+
+.video-fashion {
+background-color: $bg;
+background-image: url('../images/decor/pattern.svg');
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+padding: 125px 0;
+   &__inner {
+      display: flex
+   }
+
+   &__popup {
+      margin-right: 60px;
+      min-width: 530px;
+      height: 480px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+   }
+
+  
+
+   &__content {
+      min-width: 570px;
+   }
+
+   &__subtitle {
+      color: $accent;
+      text-transform: uppercase;
+      font-size: 22px;
+      padding-top: 75px;
+      margin-bottom: 5px;
+   }
+
+   &__title {
+      text-align: left;
+   }
+
+   &__text {
+      margin-bottom: 55px;
+   }
+
+   &__link {
+      @extend %btn;
+   }
 }
 
 
